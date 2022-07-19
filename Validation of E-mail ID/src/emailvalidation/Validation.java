@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-//creating a validation class to check email is valid or not by using regex 
+//creating a validation class to check email is valid or not by using Regex
 public class Validation {
 	int E =0;
 	void validation(String arr[]) 
@@ -58,7 +58,7 @@ public class Validation {
 	}
 	
 	
-	// creating a main method for executation
+	// creating a main method for execution
 	
 	public static void main(String[] args) {
 		
