@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 //creating a validation class to check email is valid or not by using regex 
 public class Validation {
-	int h=0;
+	int E =0;
 	void validation(String arr[]) 
 	{
 		//creating scanner object
@@ -30,12 +30,12 @@ public class Validation {
 			//if the statement is true increase the counter (c) value by 1
 			 if(k.equals(j)) 
 			 {
-				 h++;
+				 E++;
 			 }
 			
 		 }
 		//check the condition if c is grater than zero or not.
-		 if(h>0) 
+		 if(E>0) 
 		 {
 			 System.out.println("The email id that is enter are avaliable in our Array");
 		 }
@@ -66,14 +66,14 @@ public class Validation {
 		
 		//Decelerating the array contain employee email id
 		
-		String  arr[] = {"harsh.vardhan@gmail.com",
+		String  EmployeeEmailID[] = {"harsh.vardhan@gmail.com",
 				"akansha.patawa.gmail.com",
 				"santosh.kumar@gmail.com",
 				"jackpot234567@gmail.com"};
 		
 			Validation obj =  new Validation();//creating validation class object 
 			
-			obj.validation(arr);
+			obj.validation(EmployeeEmailID);
 
 	}
 
